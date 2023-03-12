@@ -6,5 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    
-    return
+    ans = 0
+    for i in s:
+        if i=='a':
+            ans+=1        
+    return ans
+print(main("google is a search engine"))
